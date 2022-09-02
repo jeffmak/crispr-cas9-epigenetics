@@ -143,8 +143,8 @@ for feat_name, feats in feats_dict.items():
 # NuPoP (Affinity)'s value ranges from 0.50 to 2.13
 
 # We observe the following tendencies in the plots:
-#   - increasing Nucleotide BDM value increases predicted CRISPR-Cas9 cleavage
+#   - increasing Nucleotide BDM increases predicted CRISPR-Cas9 cleavage
 #     activity value
 #   - increasing GC147 increases predicted CRISPR-Cas9 cleavage activity value
-#   - increasing NuPoP (Affinity) value decreases predicted CRISPR-Cas9 cleavage
+#   - increasing NuPoP (Affinity) decreases predicted CRISPR-Cas9 cleavage
 #     activity value

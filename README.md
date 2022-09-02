@@ -2,11 +2,21 @@
 
 This Github repository contains sample Python scripts and CSV datasets for running the trained XGBoost and CNN models produced in the paper "Comprehensive computational analysis of epigenetic descriptors affecting CRISPR-Cas9 off-target activity".
 
-Using the trained models, we can vary the values of Nucleotide BDM, NuPoP (Affinity) and GC147, and see how such variations affect a model's CRISPR-Cas9 cleavage activity prediction. For example:
+Using the trained models, we can vary the values of Nucleotide BDM, NuPoP (Affinity) and GC147, and see how such variations affect a model's CRISPR-Cas9 cleavage activity prediction. For example, using the CNN model, we can see that:
 
-![Nucleotide BDM](out/cnn_vary_nucleotide_bdm.pdf)
-![NuPoP (Affinity)](out/cnn_vary_nupop_affinity.pdf)
-![GC147](out/cnn_vary_gc147.pdf)
+1. Increasing Nucleotide BDM increases predicted CRISPR-Cas9 cleavage
+   activity value.
+
+![Nucleotide BDM](out/png/cnn_vary_nucleotide_bdm.png)
+
+2. Increasing NuPoP (Affinity) decreases predicted CRISPR-Cas9 cleavage
+   activity value.
+
+![NuPoP (Affinity)](out/png/cnn_vary_nupop_affinity.png)
+
+3. Increasing GC147 increases predicted CRISPR-Cas9 cleavage activity value.
+
+![GC147](out/png/cnn_vary_gc147.png)
 
 ## Models
 This repository contains the following models in the ```model``` folder:
