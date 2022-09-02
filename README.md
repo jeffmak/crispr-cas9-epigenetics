@@ -1,4 +1,4 @@
-# Sample scripts accompanying "Comprehensive computational analysis of epigenetic descriptors affecting CRISPR-Cas9 off-target activity"
+# Code accompanying "Comprehensive computational analysis of epigenetic descriptors affecting CRISPR-Cas9 off-target activity"
 
 This Github repository contains sample Python scripts and CSV datasets for running the XGBoost and CNN models produced in the paper "Comprehensive computational analysis of epigenetic descriptors affecting CRISPR-Cas9 off-target activity".
 
@@ -13,6 +13,7 @@ This repository contains the following models in the ```model``` folder:
 
 The following shows the CNN's model architecture:
 
+![alt text](model/Fig1_torch.svg)
 
 ## Data
 This repository contains the following CSV datasets in the ```data``` folder:
