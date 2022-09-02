@@ -128,7 +128,7 @@ for feat_name, feats in feats_dict.items():
   # the y-axis's name
   plt.ylabel("Predicted CRISPR-Cas9 Cleavage Activity")
 
-  # This is not an IPython notebook, so we won't show the figure here
+  # This is not a Jupyter notebook, so we won't show the figure here
   # plt.show()
 
   # Save the plot
