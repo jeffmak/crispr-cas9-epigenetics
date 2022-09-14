@@ -1,6 +1,6 @@
 # Code for the LeNup (H3Q85C) nucleosome occupancy prediction model
 
-This folder contains sample Python scripts for running the LeNup (H3Q85C) model, which predicts nucleosome occupancy. The model is based on the CNN described in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946947/, but is retrained on H3Q85C chemical cleavage yeast nucleosome positioning data, namely GSM2561057 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5807854/. The model is implemented using PyTorch.
+This folder contains sample Python scripts for running the LeNup (H3Q85C) model, which predicts nucleosome occupancy. The model is based on the CNN described in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5946947/, but is retrained on H3Q85C chemical cleavage yeast nucleosome positioning data, specifically GSM2561057 from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5807854/. The model is implemented using PyTorch.
 
 
 ## Model
