@@ -2,7 +2,9 @@
 
 This Github repository contains sample Python scripts and CSV datasets for running the trained XGBoost and CNN models produced in the paper "Comprehensive computational analysis of epigenetic descriptors affecting CRISPR-Cas9 off-target activity".
 
-Using the trained models, we can vary the values of Nucleotide BDM, NuPoP (Affinity) and GC147, and see how such variations affect a model's CRISPR-Cas9 cleavage activity prediction. For example, using the CNN model, we can see that:
+The repository also contains sample Python scripts for running the LeNup (H3Q85C) nucleosome occupancy predictor in the ```lenup``` folder.
+
+Using the trained XGBoost and CNN models, we can vary the values of Nucleotide BDM, NuPoP (Affinity) and GC147, and see how such variations affect a model's CRISPR-Cas9 cleavage activity prediction. For example, using the CNN model, we can see that:
 
 1. Increasing Nucleotide BDM increases predicted CRISPR-Cas9 cleavage
    activity value.
