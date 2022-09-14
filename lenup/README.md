@@ -9,7 +9,7 @@ This repository contains the following models in the ```model``` folder:
 | ----------------|--------------- |
 | lenup_h3q85c.th | CNN model.     |
 
-# Data
+## Data
 This repository contains the following CSV dataset in the ```data``` folder:
 | File | Description |
 | --------------|------------ |
@@ -21,5 +21,5 @@ The script ```lenup_pred.py``` must be run from this subdirectory in order for i
 | File | Runnable | Description |
 | -------| -------- | -------------|
 | lenup_nn.py | no | Contains PyTorch for LeNup's model architecture. |
-| lenup_pred.py | yes | Makes base pair-resolved nucleosome occupancy predictions for the five CRISPR-Cas9 off-target activity datapoints, and saves them to ```data/output.csv```. |
-| nn_pred.py | no | Wrapper Class for the LeNup model |
+| lenup_pred.py | yes | Makes base pair-resolved nucleosome occupancy predictions for the five CRISPR-Cas9 off-target activity datapoints in ```data/example_offtargets.csv```, and saves them to ```data/output.csv```. |
+| nn_pred.py | no | Wrapper class for the LeNup model. Handles batching and one-hot encoding of input sequences. |
